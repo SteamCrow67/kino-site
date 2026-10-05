@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>КиноКритик — Фильмы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎬 КиноКритик</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="movies.html">Фильмы</a></li>
+            <li><a href="reviews.html">Рецензии</a></li>
+            <li><a href="rating.html">Рейтинг</a></li>
+            <li><a href="profile.html">Профиль</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Каталог фильмов</h2>
+
+    <!-- БЛОК ФИЛЬТРОВ -->
+    <div class="filters">
+        <input type="text" id="search" placeholder="🔍 Поиск по названию..." oninput="applyFilters()">
+        <select id="genre" onchange="applyFilters()">
+            <option value="">Все жанры</option>
+            <option value="Фантастика">Фантастика</option>
+            <option value="Триллер">Триллер</option>
+            <option value="Драма">Драма</option>
+        </select>
+        <select id="year" onchange="applyFilters()">
+            <option value="">Все годы</option>
+            <option value="2014">2014</option>
+            <option value="2017">2017</option>
+            <option value="2019">2019</option>
+            <option value="2021">2021</option>
+        </select>
+    </div>
+
+    <!-- СЮДА JS ВСТАВИТ КАРТОЧКИ -->
+    <div id="movies-grid" class="movies-grid"></div>
+</main>
+
+<footer>
+    <p>© 2026 КиноКритик</p>
+</footer>
+
+<!-- Подключаем скрипты -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

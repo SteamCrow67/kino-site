@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "Бегущий по лезвию 2049",
+      "year": 2017,
+      "genre": "Фантастика",
+      "director": "Дени Вильнёв",
+      "rating": 8.5,
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/4/41/Blade_Runner_2049_poster.jpg",
+      "description": "Офицер полиции Лос-Анджелеса обнаруживает тайну, которая может погрузить остатки общества в хаос."
+    },
+    {
+      "id": 2,
+      "title": "Дюна",
+      "year": 2021,
+      "genre": "Фантастика",
+      "director": "Дени Вильнёв",
+      "rating": 8.0,
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/9/92/Dune_part_one.jpg",
+      "description": "Наследник знатного рода Пол Атрейдес отправляется на самую опасную планету во вселенной."
+    },
+    {
+      "id": 3,
+      "title": "Паразиты",
+      "year": 2019,
+      "genre": "Триллер",
+      "director": "Пон Чжун Хо",
+      "rating": 8.6,
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/1/1a/Parasite_poster.jpg",
+      "description": "Семья безработных хитростью устраивается в дом богатого семейства."
+    },
+    {
+      "id": 4,
+      "title": "Джокер",
+      "year": 2019,
+      "genre": "Драма",
+      "director": "Тодд Филлипс",
+      "rating": 8.4,
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/3/30/Joker_2019_poster.jpg",
+      "description": "История становления одного из самых известных злодеев комиксов."
+    },
+    {
+      "id": 5,
+      "title": "Интерстеллар",
+      "year": 2014,
+      "genre": "Фантастика",
+      "director": "Кристофер Нолан",
+      "rating": 8.6,
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/1/15/Interstellar_poster.jpg",
+      "description": "Команда исследователей отправляется через червоточину в поисках нового дома для человечества."
+    },
+    {
+      "id": 6,
+      "title": "Одержимость",
+      "year": 2014,
+      "genre": "Драма",
+      "director": "Дэмьен Шазелл",
+      "rating": 8.5,
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/0/02/Whiplash_poster.jpg",
+      "description": "Молодой барабанщик поступает в лучшую консерваторию страны."
+    }
+  ]
